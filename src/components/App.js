@@ -6,7 +6,7 @@ const App = () => {
 const [selectedOption, setSelectedOption] = useState(null);
 
   return (
-    <div >
+    <div  className="parent">
    <h1>Lifting State Up Demo</h1>
 
      <Child1 updated={setSelectedOption}/>
