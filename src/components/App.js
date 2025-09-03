@@ -7,7 +7,8 @@ const [selectedOption, setSelectedOption] = useState(null);
 
   return (
     <div  className="parent">
-   <h1>Lifting State Up Demo</h1>
+   <h1>Parent Component
+</h1>
 
      <Child1 updated={setSelectedOption}/>
      <Child2 updated={setSelectedOption}/>

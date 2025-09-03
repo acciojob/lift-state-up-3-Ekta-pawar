@@ -4,7 +4,7 @@ const Child1 = ({ updated }) => {
   return (
     <div>
       <button onClick={() => updated("Option 1")}>
-        Select Child 1
+       Option 1
       </button>
     </div>
   );
